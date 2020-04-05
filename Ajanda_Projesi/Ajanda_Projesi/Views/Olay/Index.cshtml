@@ -1,0 +1,21 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Takvim</title>
+    <style>
+        body {
+            background-color: silver;
+        }
+    </style>
+</head>
+<body>
+    <div style="height:770px;width:990px;margin:0 auto">
+        @Html.Raw(Model.Render())
+    </div>
+</body>
+</html>
+
